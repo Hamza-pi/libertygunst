@@ -23,7 +23,7 @@ import AdminListings from "./pages/AdminListings"
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
